@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21013EB21FA1C2530069A2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013EB11FA1C2530069A2D0 /* AppDelegate.swift */; };
+		21013EB41FA1C2530069A2D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013EB31FA1C2530069A2D0 /* LoginViewController.swift */; };
+		21013EB71FA1C2530069A2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21013EB51FA1C2530069A2D0 /* Main.storyboard */; };
+		21013EB91FA1C2530069A2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21013EB81FA1C2530069A2D0 /* Assets.xcassets */; };
+		21013EBC1FA1C2530069A2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21013EBA1FA1C2530069A2D0 /* LaunchScreen.storyboard */; };
+		21013EC71FA1C2530069A2D0 /* DatingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013EC61FA1C2530069A2D0 /* DatingAppTests.swift */; };
+		21013ED21FA1C2530069A2D0 /* DatingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013ED11FA1C2530069A2D0 /* DatingAppUITests.swift */; };
+		21013EE01FA1F8B20069A2D0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013EDF1FA1F8B20069A2D0 /* SignUpViewController.swift */; };
+		21013EE31FA1FBD30069A2D0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013EE21FA1FBD30069A2D0 /* Utilities.swift */; };
+		21013EE51FA2026C0069A2D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21013EE41FA2026C0069A2D0 /* Extensions.swift */; };
+		213183BC1FA31E1000E25770 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183BB1FA31E1000E25770 /* ProfileViewController.swift */; };
+		213183BE1FA31FB100E25770 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183BD1FA31FB100E25770 /* MessageViewController.swift */; };
+		213183C11FA3308600E25770 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183C01FA3308600E25770 /* MenuViewController.swift */; };
+		213183C51FA3500F00E25770 /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183C41FA3500F00E25770 /* FaqViewController.swift */; };
+		213183C71FA350C600E25770 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183C61FA350C600E25770 /* Constants.swift */; };
+		213183CA1FA3510E00E25770 /* FaqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183C91FA3510E00E25770 /* FaqTableViewCell.swift */; };
+		213183CC1FA3550500E25770 /* TermAndConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183CB1FA3550500E25770 /* TermAndConditionViewController.swift */; };
+		213183CF1FA356E300E25770 /* terms&conditions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 213183CE1FA356E300E25770 /* terms&conditions.pdf */; };
+		213183D21FA36E3100E25770 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213183D11FA36E3100E25770 /* RegisterViewController.swift */; };
+		21BD3C781FA70A120011629F /* ReplyMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C771FA70A120011629F /* ReplyMessagesViewController.swift */; };
+		21BD3C7A1FA70AF70011629F /* ReplyMessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C791FA70AF70011629F /* ReplyMessagesTableViewCell.swift */; };
+		21BD3C7C1FA711540011629F /* EmojiMessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C7B1FA711540011629F /* EmojiMessagesTableViewCell.swift */; };
+		21BD3C7E1FA725350011629F /* AllMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C7D1FA725350011629F /* AllMessagesViewController.swift */; };
+		21BD3C801FA725C50011629F /* AllMessagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C7F1FA725C50011629F /* AllMessagesCollectionViewCell.swift */; };
+		21BD3C841FA72AD20011629F /* AllMessagesCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C831FA72AD20011629F /* AllMessagesCollectionReusableView.swift */; };
+		21BD3C861FA72CC40011629F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C851FA72CC40011629F /* DetailViewController.swift */; };
+		21BD3C881FA74FC00011629F /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C871FA74FC00011629F /* ConnectionViewController.swift */; };
+		21BD3C8A1FA756C90011629F /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3C891FA756C90011629F /* PaymentViewController.swift */; };
+		21DFD2891FA8635C007949AD /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DFD2881FA8635C007949AD /* FormViewController.swift */; };
+		4E56EE5FD9D6D9A1FA402CD7 /* Pods_DatingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D4A2B7FC56C982AD440649 /* Pods_DatingAppUITests.framework */; };
+		8D17A95687DB420A8D6679C2 /* Pods_DatingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0514A70C71C2FD82B56B0A2 /* Pods_DatingApp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		B74333681FB0680A00A2C247 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74333671FB0680A00A2C247 /* MenuTableViewCell.swift */; };
+		B743336A1FB07A8B00A2C247 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74333691FB07A8B00A2C247 /* TermsAndConditionsViewController.swift */; };
+		B74333701FB091C000A2C247 /* LegalDisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B743336F1FB091C000A2C247 /* LegalDisclaimerViewController.swift */; };
+		B74333721FB0929700A2C247 /* LegalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74333711FB0929700A2C247 /* LegalTableViewCell.swift */; };
+		D5A4E6E73EB5975576785EF2 /* Pods_DatingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD096F0072395389BF816A5B /* Pods_DatingAppTests.framework */; };
+		E7002AD61FD7BCCD006B81DB /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002AD51FD7BCCD006B81DB /* CustomKolodaView.swift */; };
+		E7002AD81FD7BE47006B81DB /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002AD71FD7BE47006B81DB /* CustomOverlayView.swift */; };
+		E7002ADA1FD7C556006B81DB /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7002AD91FD7C556006B81DB /* CustomOverlayView.xib */; };
+		E7002ADC1FD7EBF1006B81DB /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002ADB1FD7EBF1006B81DB /* Profiles.swift */; };
+		E7002ADE1FD810E1006B81DB /* IntialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7002ADD1FD810E1006B81DB /* IntialViewController.swift */; };
+		E7006CCD1FD91DDE002E8934 /* UserProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7006CCC1FD91DDE002E8934 /* UserProfileDetail.swift */; };
+		E7067BCE1FEA3DDD00E2E762 /* SenderMsgChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067BCD1FEA3DDD00E2E762 /* SenderMsgChatTableViewCell.swift */; };
+		E7067BD01FEA3DED00E2E762 /* MyMsgChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067BCF1FEA3DED00E2E762 /* MyMsgChatTableViewCell.swift */; };
+		E7067BD21FEA3E0600E2E762 /* SenderImageChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067BD11FEA3E0600E2E762 /* SenderImageChatTableViewCell.swift */; };
+		E7067BD41FEA3E1800E2E762 /* MyImageChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067BD31FEA3E1800E2E762 /* MyImageChatTableViewCell.swift */; };
+		E711DC0B2022F18300CEA635 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711DC092022F18300CEA635 /* IAPHelper.swift */; };
+		E711DC0C2022F18300CEA635 /* RageProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E711DC0A2022F18300CEA635 /* RageProducts.swift */; };
+		E711DC0E2022F4CB00CEA635 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E711DC0D2022F4CB00CEA635 /* StoreKit.framework */; };
+		E71572A31FC2C2F7002287D0 /* ApIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71572A21FC2C2F7002287D0 /* ApIManager.swift */; };
+		E71572A51FC2E415002287D0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71572A41FC2E415002287D0 /* Reachability.swift */; };
+		E71572A81FC2E4DB002287D0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71572A71FC2E4DB002287D0 /* UserProfile.swift */; };
+		E7239244201617EC004F2C0B /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7239243201617EC004F2C0B /* Chats.swift */; };
+		E724CDE02032AB4200ECE430 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724CDDF2032AB4200ECE430 /* SupportViewController.swift */; };
+		E78E00CB203E9A25007061BE /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78E00CA203E9A25007061BE /* Twitter.framework */; };
+		E78E00CE203E9B19007061BE /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78E00CC203E9A4B007061BE /* TwitterKit.framework */; };
+		E7AB74B620C53B8C005C2753 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB74B520C53B8C005C2753 /* OtpVC.swift */; };
+		E7AE60382080C61C0091F217 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE60372080C61C0091F217 /* SubscriptionViewController.swift */; };
+		E7B086281FB5CC56000460DD /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B086271FB5CC56000460DD /* SuggestionsViewController.swift */; };
+		E7B2A7A51FC4448500195EF7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2A7A41FC4448500195EF7 /* ForgotPasswordViewController.swift */; };
+		E7B2A7A71FC447A900195EF7 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2A7A61FC447A900195EF7 /* ChangePasswordViewController.swift */; };
+		E7B2AEAF20189DA900BB64F9 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2AEAE20189DA900BB64F9 /* UserProfileViewController.swift */; };
+		E7E72BD3201F3C2500AD7385 /* Countrys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E72BD2201F3C2500AD7385 /* Countrys.swift */; };
+		E7F3DD10201741BF0003758C /* ChatLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3DD0F201741BF0003758C /* ChatLists.swift */; };
+		E7FB1305203FEB88001703E8 /* RegisterEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FB1304203FEB88001703E8 /* RegisterEditViewController.swift */; };
+		E7FB5A3D1FE3AD91008193D6 /* faq.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FB5A3C1FE3AD91008193D6 /* faq.swift */; };
+		E7FB5A3F1FE3B183008193D6 /* FaqAnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FB5A3E1FE3B183008193D6 /* FaqAnsViewController.swift */; };
+		E7FB683A1FEBEC130004ACF0 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FB68391FEBEC130004ACF0 /* Subscription.swift */; };
+		E7FE5AD61FED2ACE00D049B9 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FE5AD51FED2ACE00D049B9 /* Notifications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21013EC31FA1C2530069A2D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21013EA61FA1C2530069A2D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21013EAD1FA1C2530069A2D0;
+			remoteInfo = DatingApp;
+		};
+		21013ECE1FA1C2530069A2D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21013EA61FA1C2530069A2D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21013EAD1FA1C2530069A2D0;
+			remoteInfo = DatingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12DB26C6B29078AF7CD1C398 /* Pods-DatingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatingAppTests/Pods-DatingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21013EAE1FA1C2530069A2D0 /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21013EB11FA1C2530069A2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21013EB31FA1C2530069A2D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		21013EB61FA1C2530069A2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21013EB81FA1C2530069A2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21013EBB1FA1C2530069A2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21013EBD1FA1C2530069A2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21013EC21FA1C2530069A2D0 /* DatingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21013EC61FA1C2530069A2D0 /* DatingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppTests.swift; sourceTree = "<group>"; };
+		21013EC81FA1C2530069A2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21013ECD1FA1C2530069A2D0 /* DatingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21013ED11FA1C2530069A2D0 /* DatingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppUITests.swift; sourceTree = "<group>"; };
+		21013ED31FA1C2530069A2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21013EDF1FA1F8B20069A2D0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		21013EE21FA1FBD30069A2D0 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		21013EE41FA2026C0069A2D0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		213183BB1FA31E1000E25770 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		213183BD1FA31FB100E25770 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		213183C01FA3308600E25770 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		213183C41FA3500F00E25770 /* FaqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
+		213183C61FA350C600E25770 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		213183C91FA3510E00E25770 /* FaqTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqTableViewCell.swift; sourceTree = "<group>"; };
+		213183CB1FA3550500E25770 /* TermAndConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermAndConditionViewController.swift; sourceTree = "<group>"; };
+		213183CE1FA356E300E25770 /* terms&conditions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "terms&conditions.pdf"; sourceTree = "<group>"; };
+		213183D11FA36E3100E25770 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		21BD3C771FA70A120011629F /* ReplyMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyMessagesViewController.swift; sourceTree = "<group>"; };
+		21BD3C791FA70AF70011629F /* ReplyMessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyMessagesTableViewCell.swift; sourceTree = "<group>"; };
+		21BD3C7B1FA711540011629F /* EmojiMessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiMessagesTableViewCell.swift; sourceTree = "<group>"; };
+		21BD3C7D1FA725350011629F /* AllMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllMessagesViewController.swift; sourceTree = "<group>"; };
+		21BD3C7F1FA725C50011629F /* AllMessagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllMessagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		21BD3C831FA72AD20011629F /* AllMessagesCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllMessagesCollectionReusableView.swift; sourceTree = "<group>"; };
+		21BD3C851FA72CC40011629F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		21BD3C871FA74FC00011629F /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		21BD3C891FA756C90011629F /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		21DFD2881FA8635C007949AD /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		39E0B66E3601113E0F7919A4 /* Pods-DatingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatingAppUITests/Pods-DatingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		441FFB11FC67927DFBC0110A /* Pods-DatingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatingApp/Pods-DatingApp.release.xcconfig"; sourceTree = "<group>"; };
+		94871555F2D1F08CD3341EC8 /* Pods-DatingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatingApp/Pods-DatingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		98D4A2B7FC56C982AD440649 /* Pods_DatingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74333671FB0680A00A2C247 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		B74333691FB07A8B00A2C247 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		B743336F1FB091C000A2C247 /* LegalDisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalDisclaimerViewController.swift; sourceTree = "<group>"; };
+		B74333711FB0929700A2C247 /* LegalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalTableViewCell.swift; sourceTree = "<group>"; };
+		C51D61145075AC1945AB0B4D /* Pods-DatingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatingAppTests/Pods-DatingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD096F0072395389BF816A5B /* Pods_DatingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0127FB394D3554D04C7954F /* Pods-DatingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatingAppUITests/Pods-DatingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7002AD51FD7BCCD006B81DB /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		E7002AD71FD7BE47006B81DB /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		E7002AD91FD7C556006B81DB /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		E7002ADB1FD7EBF1006B81DB /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		E7002ADD1FD810E1006B81DB /* IntialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntialViewController.swift; sourceTree = "<group>"; };
+		E7006CCC1FD91DDE002E8934 /* UserProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDetail.swift; sourceTree = "<group>"; };
+		E70326591FC3FF1A008026AF /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		E7067BCD1FEA3DDD00E2E762 /* SenderMsgChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderMsgChatTableViewCell.swift; sourceTree = "<group>"; };
+		E7067BCF1FEA3DED00E2E762 /* MyMsgChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMsgChatTableViewCell.swift; sourceTree = "<group>"; };
+		E7067BD11FEA3E0600E2E762 /* SenderImageChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderImageChatTableViewCell.swift; sourceTree = "<group>"; };
+		E7067BD31FEA3E1800E2E762 /* MyImageChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageChatTableViewCell.swift; sourceTree = "<group>"; };
+		E711DC092022F18300CEA635 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		E711DC0A2022F18300CEA635 /* RageProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RageProducts.swift; sourceTree = "<group>"; };
+		E711DC0D2022F4CB00CEA635 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E711DC102023284800CEA635 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71572A21FC2C2F7002287D0 /* ApIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApIManager.swift; sourceTree = "<group>"; };
+		E71572A41FC2E415002287D0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E71572A71FC2E4DB002287D0 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E71572A91FC2ED98002287D0 /* DatingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DatingApp.entitlements; sourceTree = "<group>"; };
+		E7239243201617EC004F2C0B /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
+		E724CDDF2032AB4200ECE430 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		E78E00C9203E99A8007061BE /* DatingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatingApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E78E00CA203E9A25007061BE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		E78E00CC203E9A4B007061BE /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = Pods/TwitterKit/iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		E7AB74B520C53B8C005C2753 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		E7AE60372080C61C0091F217 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		E7B086271FB5CC56000460DD /* SuggestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
+		E7B2A7A41FC4448500195EF7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E7B2A7A61FC447A900195EF7 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		E7B2AEAE20189DA900BB64F9 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		E7E72BD2201F3C2500AD7385 /* Countrys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countrys.swift; sourceTree = "<group>"; };
+		E7F3DD0F201741BF0003758C /* ChatLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLists.swift; sourceTree = "<group>"; };
+		E7FB1304203FEB88001703E8 /* RegisterEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEditViewController.swift; sourceTree = "<group>"; };
+		E7FB5A3C1FE3AD91008193D6 /* faq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faq.swift; sourceTree = "<group>"; };
+		E7FB5A3E1FE3B183008193D6 /* FaqAnsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqAnsViewController.swift; sourceTree = "<group>"; };
+		E7FB68391FEBEC130004ACF0 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		E7FE5AD51FED2ACE00D049B9 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		F0514A70C71C2FD82B56B0A2 /* Pods_DatingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21013EAB1FA1C2530069A2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78E00CE203E9B19007061BE /* TwitterKit.framework in Frameworks */,
+				E78E00CB203E9A25007061BE /* Twitter.framework in Frameworks */,
+				8D17A95687DB420A8D6679C2 /* Pods_DatingApp.framework in Frameworks */,
+				E711DC0E2022F4CB00CEA635 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21013EBF1FA1C2530069A2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A4E6E73EB5975576785EF2 /* Pods_DatingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21013ECA1FA1C2530069A2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E56EE5FD9D6D9A1FA402CD7 /* Pods_DatingAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21013EA51FA1C2530069A2D0 = {
+			isa = PBXGroup;
+			children = (
+				21013EB01FA1C2530069A2D0 /* DatingApp */,
+				21013EC51FA1C2530069A2D0 /* DatingAppTests */,
+				21013ED01FA1C2530069A2D0 /* DatingAppUITests */,
+				21013EAF1FA1C2530069A2D0 /* Products */,
+				41EE02DD553E9E735095B7B3 /* Pods */,
+				512DFD22F3345CD3885F2AC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21013EAF1FA1C2530069A2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21013EAE1FA1C2530069A2D0 /* DatingApp.app */,
+				21013EC21FA1C2530069A2D0 /* DatingAppTests.xctest */,
+				21013ECD1FA1C2530069A2D0 /* DatingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21013EB01FA1C2530069A2D0 /* DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				E71572A91FC2ED98002287D0 /* DatingApp.entitlements */,
+				E71572A61FC2E4CB002287D0 /* Models */,
+				213183D01FA3581E00E25770 /* Login&Signup */,
+				213183CD1FA356B700E25770 /* StoryBoards */,
+				213183BF1FA3307200E25770 /* MenuControllers */,
+				21013EE11FA1FBC10069A2D0 /* Common */,
+				E7067BCB1FEA3D4D00E2E762 /* Chat */,
+				21013EB11FA1C2530069A2D0 /* AppDelegate.swift */,
+				213183BB1FA31E1000E25770 /* ProfileViewController.swift */,
+				21BD3C771FA70A120011629F /* ReplyMessagesViewController.swift */,
+				21BD3C7D1FA725350011629F /* AllMessagesViewController.swift */,
+				E7B2AEAE20189DA900BB64F9 /* UserProfileViewController.swift */,
+				21013EB81FA1C2530069A2D0 /* Assets.xcassets */,
+				21013EBD1FA1C2530069A2D0 /* Info.plist */,
+				E78E00C9203E99A8007061BE /* DatingApp-Bridging-Header.h */,
+			);
+			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		21013EC51FA1C2530069A2D0 /* DatingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				21013EC61FA1C2530069A2D0 /* DatingAppTests.swift */,
+				21013EC81FA1C2530069A2D0 /* Info.plist */,
+			);
+			path = DatingAppTests;
+			sourceTree = "<group>";
+		};
+		21013ED01FA1C2530069A2D0 /* DatingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21013ED11FA1C2530069A2D0 /* DatingAppUITests.swift */,
+				21013ED31FA1C2530069A2D0 /* Info.plist */,
+			);
+			path = DatingAppUITests;
+			sourceTree = "<group>";
+		};
+		21013EE11FA1FBC10069A2D0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E711DC092022F18300CEA635 /* IAPHelper.swift */,
+				E711DC0A2022F18300CEA635 /* RageProducts.swift */,
+				213183C61FA350C600E25770 /* Constants.swift */,
+				21013EE21FA1FBD30069A2D0 /* Utilities.swift */,
+				21013EE41FA2026C0069A2D0 /* Extensions.swift */,
+				E71572A21FC2C2F7002287D0 /* ApIManager.swift */,
+				E71572A41FC2E415002287D0 /* Reachability.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		213183BF1FA3307200E25770 /* MenuControllers */ = {
+			isa = PBXGroup;
+			children = (
+				213183C81FA350F300E25770 /* Cells */,
+				213183C01FA3308600E25770 /* MenuViewController.swift */,
+				213183C41FA3500F00E25770 /* FaqViewController.swift */,
+				213183CB1FA3550500E25770 /* TermAndConditionViewController.swift */,
+				E7AE60372080C61C0091F217 /* SubscriptionViewController.swift */,
+				21BD3C851FA72CC40011629F /* DetailViewController.swift */,
+				21BD3C871FA74FC00011629F /* ConnectionViewController.swift */,
+				21BD3C891FA756C90011629F /* PaymentViewController.swift */,
+				B74333691FB07A8B00A2C247 /* TermsAndConditionsViewController.swift */,
+				B743336F1FB091C000A2C247 /* LegalDisclaimerViewController.swift */,
+				E7B086271FB5CC56000460DD /* SuggestionsViewController.swift */,
+				E7FB5A3E1FE3B183008193D6 /* FaqAnsViewController.swift */,
+				E724CDDF2032AB4200ECE430 /* SupportViewController.swift */,
+			);
+			name = MenuControllers;
+			sourceTree = "<group>";
+		};
+		213183C81FA350F300E25770 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				213183C91FA3510E00E25770 /* FaqTableViewCell.swift */,
+				21BD3C791FA70AF70011629F /* ReplyMessagesTableViewCell.swift */,
+				21BD3C7B1FA711540011629F /* EmojiMessagesTableViewCell.swift */,
+				21BD3C7F1FA725C50011629F /* AllMessagesCollectionViewCell.swift */,
+				21BD3C831FA72AD20011629F /* AllMessagesCollectionReusableView.swift */,
+				B74333671FB0680A00A2C247 /* MenuTableViewCell.swift */,
+				B74333711FB0929700A2C247 /* LegalTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		213183CD1FA356B700E25770 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				21013EBA1FA1C2530069A2D0 /* LaunchScreen.storyboard */,
+				21013EB51FA1C2530069A2D0 /* Main.storyboard */,
+				E7002AD91FD7C556006B81DB /* CustomOverlayView.xib */,
+				213183CE1FA356E300E25770 /* terms&conditions.pdf */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		213183D01FA3581E00E25770 /* Login&Signup */ = {
+			isa = PBXGroup;
+			children = (
+				21013EB31FA1C2530069A2D0 /* LoginViewController.swift */,
+				21013EDF1FA1F8B20069A2D0 /* SignUpViewController.swift */,
+				213183D11FA36E3100E25770 /* RegisterViewController.swift */,
+				21DFD2881FA8635C007949AD /* FormViewController.swift */,
+				E7B2A7A41FC4448500195EF7 /* ForgotPasswordViewController.swift */,
+				E7B2A7A61FC447A900195EF7 /* ChangePasswordViewController.swift */,
+				E7002ADD1FD810E1006B81DB /* IntialViewController.swift */,
+				E7FB1304203FEB88001703E8 /* RegisterEditViewController.swift */,
+				E7AB74B520C53B8C005C2753 /* OtpVC.swift */,
+			);
+			name = "Login&Signup";
+			sourceTree = "<group>";
+		};
+		41EE02DD553E9E735095B7B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94871555F2D1F08CD3341EC8 /* Pods-DatingApp.debug.xcconfig */,
+				441FFB11FC67927DFBC0110A /* Pods-DatingApp.release.xcconfig */,
+				12DB26C6B29078AF7CD1C398 /* Pods-DatingAppTests.debug.xcconfig */,
+				C51D61145075AC1945AB0B4D /* Pods-DatingAppTests.release.xcconfig */,
+				D0127FB394D3554D04C7954F /* Pods-DatingAppUITests.debug.xcconfig */,
+				39E0B66E3601113E0F7919A4 /* Pods-DatingAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		512DFD22F3345CD3885F2AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E78E00CC203E9A4B007061BE /* TwitterKit.framework */,
+				E78E00CA203E9A25007061BE /* Twitter.framework */,
+				E711DC102023284800CEA635 /* Alamofire.framework */,
+				E711DC0D2022F4CB00CEA635 /* StoreKit.framework */,
+				E70326591FC3FF1A008026AF /* UserNotifications.framework */,
+				F0514A70C71C2FD82B56B0A2 /* Pods_DatingApp.framework */,
+				CD096F0072395389BF816A5B /* Pods_DatingAppTests.framework */,
+				98D4A2B7FC56C982AD440649 /* Pods_DatingAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7067BCB1FEA3D4D00E2E762 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E7067BCC1FEA3D6E00E2E762 /* Cells */,
+				213183BD1FA31FB100E25770 /* MessageViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		E7067BCC1FEA3D6E00E2E762 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E7067BCD1FEA3DDD00E2E762 /* SenderMsgChatTableViewCell.swift */,
+				E7067BCF1FEA3DED00E2E762 /* MyMsgChatTableViewCell.swift */,
+				E7067BD11FEA3E0600E2E762 /* SenderImageChatTableViewCell.swift */,
+				E7067BD31FEA3E1800E2E762 /* MyImageChatTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E71572A61FC2E4CB002287D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E71572A71FC2E4DB002287D0 /* UserProfile.swift */,
+				E7002AD51FD7BCCD006B81DB /* CustomKolodaView.swift */,
+				E7002AD71FD7BE47006B81DB /* CustomOverlayView.swift */,
+				E7002ADB1FD7EBF1006B81DB /* Profiles.swift */,
+				E7006CCC1FD91DDE002E8934 /* UserProfileDetail.swift */,
+				E7FB5A3C1FE3AD91008193D6 /* faq.swift */,
+				E7FB68391FEBEC130004ACF0 /* Subscription.swift */,
+				E7FE5AD51FED2ACE00D049B9 /* Notifications.swift */,
+				E7239243201617EC004F2C0B /* Chats.swift */,
+				E7F3DD0F201741BF0003758C /* ChatLists.swift */,
+				E7E72BD2201F3C2500AD7385 /* Countrys.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21013EAD1FA1C2530069A2D0 /* DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21013ED61FA1C2530069A2D0 /* Build configuration list for PBXNativeTarget "DatingApp" */;
+			buildPhases = (
+				E17A44DFDB86DDEFD39521ED /* [CP] Check Pods Manifest.lock */,
+				21013EAA1FA1C2530069A2D0 /* Sources */,
+				21013EAB1FA1C2530069A2D0 /* Frameworks */,
+				21013EAC1FA1C2530069A2D0 /* Resources */,
+				F8D4B97CC203AA48CE033928 /* [CP] Embed Pods Frameworks */,
+				65FC8F355DD6DC2E8952ABAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingApp;
+			productName = DatingApp;
+			productReference = 21013EAE1FA1C2530069A2D0 /* DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21013EC11FA1C2530069A2D0 /* DatingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21013ED91FA1C2530069A2D0 /* Build configuration list for PBXNativeTarget "DatingAppTests" */;
+			buildPhases = (
+				4AF66570F968F47504D2063E /* [CP] Check Pods Manifest.lock */,
+				21013EBE1FA1C2530069A2D0 /* Sources */,
+				21013EBF1FA1C2530069A2D0 /* Frameworks */,
+				21013EC01FA1C2530069A2D0 /* Resources */,
+				0FE3CC1BD04EB2119D4AEF36 /* [CP] Embed Pods Frameworks */,
+				5C29A49E42064242E4E652E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21013EC41FA1C2530069A2D0 /* PBXTargetDependency */,
+			);
+			name = DatingAppTests;
+			productName = DatingAppTests;
+			productReference = 21013EC21FA1C2530069A2D0 /* DatingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21013ECC1FA1C2530069A2D0 /* DatingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21013EDC1FA1C2530069A2D0 /* Build configuration list for PBXNativeTarget "DatingAppUITests" */;
+			buildPhases = (
+				D0AB1FF6BB6667882F2A7DA5 /* [CP] Check Pods Manifest.lock */,
+				21013EC91FA1C2530069A2D0 /* Sources */,
+				21013ECA1FA1C2530069A2D0 /* Frameworks */,
+				21013ECB1FA1C2530069A2D0 /* Resources */,
+				2AD1E1C97BE9C76DE5B17B96 /* [CP] Embed Pods Frameworks */,
+				86F9EF8E5663CB5B220C7DB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21013ECF1FA1C2530069A2D0 /* PBXTargetDependency */,
+			);
+			name = DatingAppUITests;
+			productName = DatingAppUITests;
+			productReference = 21013ECD1FA1C2530069A2D0 /* DatingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21013EA61FA1C2530069A2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AJ;
+				TargetAttributes = {
+					21013EAD1FA1C2530069A2D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R4VPLBF46M;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					21013EC11FA1C2530069A2D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21013EAD1FA1C2530069A2D0;
+					};
+					21013ECC1FA1C2530069A2D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21013EAD1FA1C2530069A2D0;
+					};
+				};
+			};
+			buildConfigurationList = 21013EA91FA1C2530069A2D0 /* Build configuration list for PBXProject "Dating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21013EA51FA1C2530069A2D0;
+			productRefGroup = 21013EAF1FA1C2530069A2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21013EAD1FA1C2530069A2D0 /* DatingApp */,
+				21013EC11FA1C2530069A2D0 /* DatingAppTests */,
+				21013ECC1FA1C2530069A2D0 /* DatingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21013EAC1FA1C2530069A2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21013EBC1FA1C2530069A2D0 /* LaunchScreen.storyboard in Resources */,
+				21013EB91FA1C2530069A2D0 /* Assets.xcassets in Resources */,
+				E7002ADA1FD7C556006B81DB /* CustomOverlayView.xib in Resources */,
+				21013EB71FA1C2530069A2D0 /* Main.storyboard in Resources */,
+				213183CF1FA356E300E25770 /* terms&conditions.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21013EC01FA1C2530069A2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21013ECB1FA1C2530069A2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE3CC1BD04EB2119D4AEF36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingAppTests/Pods-DatingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD1E1C97BE9C76DE5B17B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingAppUITests/Pods-DatingAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF66570F968F47504D2063E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C29A49E42064242E4E652E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingAppTests/Pods-DatingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65FC8F355DD6DC2E8952ABAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DatingApp/Pods-DatingApp-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingApp/Pods-DatingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F9EF8E5663CB5B220C7DB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingAppUITests/Pods-DatingAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0AB1FF6BB6667882F2A7DA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E17A44DFDB86DDEFD39521ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D4B97CC203AA48CE033928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21013EAA1FA1C2530069A2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213183CA1FA3510E00E25770 /* FaqTableViewCell.swift in Sources */,
+				E7B2AEAF20189DA900BB64F9 /* UserProfileViewController.swift in Sources */,
+				E7FE5AD61FED2ACE00D049B9 /* Notifications.swift in Sources */,
+				E7B2A7A51FC4448500195EF7 /* ForgotPasswordViewController.swift in Sources */,
+				E7002ADC1FD7EBF1006B81DB /* Profiles.swift in Sources */,
+				E7FB683A1FEBEC130004ACF0 /* Subscription.swift in Sources */,
+				B74333701FB091C000A2C247 /* LegalDisclaimerViewController.swift in Sources */,
+				E7002ADE1FD810E1006B81DB /* IntialViewController.swift in Sources */,
+				E7FB5A3F1FE3B183008193D6 /* FaqAnsViewController.swift in Sources */,
+				213183C71FA350C600E25770 /* Constants.swift in Sources */,
+				213183CC1FA3550500E25770 /* TermAndConditionViewController.swift in Sources */,
+				21BD3C7A1FA70AF70011629F /* ReplyMessagesTableViewCell.swift in Sources */,
+				21BD3C841FA72AD20011629F /* AllMessagesCollectionReusableView.swift in Sources */,
+				E724CDE02032AB4200ECE430 /* SupportViewController.swift in Sources */,
+				21DFD2891FA8635C007949AD /* FormViewController.swift in Sources */,
+				21BD3C861FA72CC40011629F /* DetailViewController.swift in Sources */,
+				E7AE60382080C61C0091F217 /* SubscriptionViewController.swift in Sources */,
+				21BD3C801FA725C50011629F /* AllMessagesCollectionViewCell.swift in Sources */,
+				E711DC0C2022F18300CEA635 /* RageProducts.swift in Sources */,
+				E7E72BD3201F3C2500AD7385 /* Countrys.swift in Sources */,
+				21BD3C7C1FA711540011629F /* EmojiMessagesTableViewCell.swift in Sources */,
+				E7067BD01FEA3DED00E2E762 /* MyMsgChatTableViewCell.swift in Sources */,
+				E7006CCD1FD91DDE002E8934 /* UserProfileDetail.swift in Sources */,
+				E7067BD41FEA3E1800E2E762 /* MyImageChatTableViewCell.swift in Sources */,
+				213183BC1FA31E1000E25770 /* ProfileViewController.swift in Sources */,
+				21013EE51FA2026C0069A2D0 /* Extensions.swift in Sources */,
+				213183C51FA3500F00E25770 /* FaqViewController.swift in Sources */,
+				E71572A31FC2C2F7002287D0 /* ApIManager.swift in Sources */,
+				21BD3C881FA74FC00011629F /* ConnectionViewController.swift in Sources */,
+				E7F3DD10201741BF0003758C /* ChatLists.swift in Sources */,
+				E7FB5A3D1FE3AD91008193D6 /* faq.swift in Sources */,
+				21013EE01FA1F8B20069A2D0 /* SignUpViewController.swift in Sources */,
+				21013EB41FA1C2530069A2D0 /* LoginViewController.swift in Sources */,
+				E71572A51FC2E415002287D0 /* Reachability.swift in Sources */,
+				213183D21FA36E3100E25770 /* RegisterViewController.swift in Sources */,
+				21BD3C781FA70A120011629F /* ReplyMessagesViewController.swift in Sources */,
+				B74333721FB0929700A2C247 /* LegalTableViewCell.swift in Sources */,
+				21013EE31FA1FBD30069A2D0 /* Utilities.swift in Sources */,
+				E7FB1305203FEB88001703E8 /* RegisterEditViewController.swift in Sources */,
+				E7002AD61FD7BCCD006B81DB /* CustomKolodaView.swift in Sources */,
+				21BD3C7E1FA725350011629F /* AllMessagesViewController.swift in Sources */,
+				E7067BD21FEA3E0600E2E762 /* SenderImageChatTableViewCell.swift in Sources */,
+				B743336A1FB07A8B00A2C247 /* TermsAndConditionsViewController.swift in Sources */,
+				E711DC0B2022F18300CEA635 /* IAPHelper.swift in Sources */,
+				E7B086281FB5CC56000460DD /* SuggestionsViewController.swift in Sources */,
+				21013EB21FA1C2530069A2D0 /* AppDelegate.swift in Sources */,
+				E7067BCE1FEA3DDD00E2E762 /* SenderMsgChatTableViewCell.swift in Sources */,
+				213183BE1FA31FB100E25770 /* MessageViewController.swift in Sources */,
+				E7239244201617EC004F2C0B /* Chats.swift in Sources */,
+				E7B2A7A71FC447A900195EF7 /* ChangePasswordViewController.swift in Sources */,
+				E7AB74B620C53B8C005C2753 /* OtpVC.swift in Sources */,
+				E71572A81FC2E4DB002287D0 /* UserProfile.swift in Sources */,
+				213183C11FA3308600E25770 /* MenuViewController.swift in Sources */,
+				21BD3C8A1FA756C90011629F /* PaymentViewController.swift in Sources */,
+				B74333681FB0680A00A2C247 /* MenuTableViewCell.swift in Sources */,
+				E7002AD81FD7BE47006B81DB /* CustomOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21013EBE1FA1C2530069A2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21013EC71FA1C2530069A2D0 /* DatingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21013EC91FA1C2530069A2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21013ED21FA1C2530069A2D0 /* DatingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21013EC41FA1C2530069A2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21013EAD1FA1C2530069A2D0 /* DatingApp */;
+			targetProxy = 21013EC31FA1C2530069A2D0 /* PBXContainerItemProxy */;
+		};
+		21013ECF1FA1C2530069A2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21013EAD1FA1C2530069A2D0 /* DatingApp */;
+			targetProxy = 21013ECE1FA1C2530069A2D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21013EB51FA1C2530069A2D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21013EB61FA1C2530069A2D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21013EBA1FA1C2530069A2D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21013EBB1FA1C2530069A2D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21013ED41FA1C2530069A2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21013ED51FA1C2530069A2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21013ED71FA1C2530069A2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94871555F2D1F08CD3341EC8 /* Pods-DatingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: PAOLO DESIGN AND INNOVATION PTY LTD (R4VPLBF46M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PAOLO DESIGN AND INNOVATION PTY LTD (R4VPLBF46M)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R4VPLBF46M;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/TwitterKit/iOS",
+					"$(PROJECT_DIR)/DatingApp",
+				);
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.cqlsys.mydate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "758f9a2d-7864-47df-89a8-b7d03bacdaa3";
+				PROVISIONING_PROFILE_SPECIFIER = MyDateAppDistProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/aj/Desktop/DeviDayal/DEBBI IOS PROJECT /Dating App/Code/DatingApp/DatingApp/DatingApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		21013ED81FA1C2530069A2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441FFB11FC67927DFBC0110A /* Pods-DatingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: PAOLO DESIGN AND INNOVATION PTY LTD (R4VPLBF46M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PAOLO DESIGN AND INNOVATION PTY LTD (R4VPLBF46M)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R4VPLBF46M;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/TwitterKit/iOS",
+					"$(PROJECT_DIR)/DatingApp",
+				);
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.cqlsys.mydate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "758f9a2d-7864-47df-89a8-b7d03bacdaa3";
+				PROVISIONING_PROFILE_SPECIFIER = MyDateAppDistProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/aj/Desktop/DeviDayal/DEBBI IOS PROJECT /Dating App/Code/DatingApp/DatingApp/DatingApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		21013EDA1FA1C2530069A2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DB26C6B29078AF7CD1C398 /* Pods-DatingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DatingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.xcode.DatingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatingApp.app/DatingApp";
+			};
+			name = Debug;
+		};
+		21013EDB1FA1C2530069A2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51D61145075AC1945AB0B4D /* Pods-DatingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DatingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.xcode.DatingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatingApp.app/DatingApp";
+			};
+			name = Release;
+		};
+		21013EDD1FA1C2530069A2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0127FB394D3554D04C7954F /* Pods-DatingAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DatingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.xcode.DatingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DatingApp;
+			};
+			name = Debug;
+		};
+		21013EDE1FA1C2530069A2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E0B66E3601113E0F7919A4 /* Pods-DatingAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DatingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.xcode.DatingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DatingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21013EA91FA1C2530069A2D0 /* Build configuration list for PBXProject "Dating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21013ED41FA1C2530069A2D0 /* Debug */,
+				21013ED51FA1C2530069A2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21013ED61FA1C2530069A2D0 /* Build configuration list for PBXNativeTarget "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21013ED71FA1C2530069A2D0 /* Debug */,
+				21013ED81FA1C2530069A2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21013ED91FA1C2530069A2D0 /* Build configuration list for PBXNativeTarget "DatingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21013EDA1FA1C2530069A2D0 /* Debug */,
+				21013EDB1FA1C2530069A2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21013EDC1FA1C2530069A2D0 /* Build configuration list for PBXNativeTarget "DatingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21013EDD1FA1C2530069A2D0 /* Debug */,
+				21013EDE1FA1C2530069A2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21013EA61FA1C2530069A2D0 /* Project object */;
+}
